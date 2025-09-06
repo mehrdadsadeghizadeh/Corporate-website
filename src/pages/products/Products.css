@@ -1,0 +1,232 @@
+.container-page-products {
+  margin-top: 70px;
+  text-align: center;
+}
+.title__page {
+  padding: 85px 0 30px 0;
+}
+.title__page__text {
+  font-size: 1.5rem;
+  color: var(--color-text);
+}
+.container-productsAndfilter {
+  padding: 5px 0 50px 0;
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  margin: 0 70px 0 70px;
+}
+/* filter */
+.container__filter {
+  width: 350px;
+  background-color: var(--color-box);
+  border-radius: 9px;
+}
+.title__filter__items {
+  margin: 24px 0 14px 0;
+  text-align: right;
+  margin-right: 24px;
+  color: var(--color-text);
+
+}
+.filter__items {
+  margin-top: 12px;
+}
+.filter__item {
+  width: 100%;
+  height: 46px;
+  line-height: 34px;
+  display: flex;
+  border-bottom: 1px solid var(--color-border);
+  padding: 7px 40px;
+  position: relative;
+  cursor: pointer;
+  color: var(--color-text);
+  /* background-image: linear-gradient(
+    to left,
+    rgba(255, 0, 0, 0.2),
+    #a1000d0d
+  ); */
+}
+.filter__item p {
+  font-size: 14px;
+}
+.filter__item span {
+  position: absolute;
+  left: 40px;
+}
+.filter__item__iconsearch {
+  margin-top: 5px;
+  margin-left: 22px;
+  font-size: 1.1rem;
+}
+.filter__item__iconarrowback {
+  margin-bottom: -3px;
+}
+.filter__Counseling {
+  background-color: var(--box-productPhone);
+  color: var(--color-text);
+  margin: 24px 20px 0 20px;
+  border-radius: 9px;
+  padding: 7px 0;
+  margin-bottom: 25px;
+  position: sticky;
+  top: 85px;
+}
+.filter__Counseling__title {
+  margin: 10px 0;
+}
+.filter__Counseling__text {
+  margin: 7px;
+}
+.filter__Counseling__text:nth-child(1) {
+  margin-top: 18px;
+}
+.filter__Counseling__icons {
+  margin-left: 3px;
+}
+/* product */
+.container__products {
+  width: 1100px;
+  background-color: var(--color-box);
+  border-radius: 9px;
+  text-align: center;
+}
+.products__boxs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  direction: ltr;
+  justify-content: space-between;
+  margin: 0 16px;
+  --columns: 4;
+}
+.product__box {
+  flex-basis: calc(122% / var(--columns));
+  height: 326px;
+  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.27);
+  background-color: white;
+  border-radius: 9px;
+  margin: 24px 0;
+}
+.product__box__img img {
+  width: 100% ;
+  height: 200px;
+  object-fit: contain;
+ 
+}
+.product__box__name {
+  height: 40px;
+}
+.product__box__btn {
+  width: 90%;
+  margin-top: 20px;
+  border-radius: 7px;
+  border: none;
+  background-color: var(--btn-product);
+  color: white;
+  cursor: pointer;
+  padding: 6px 0;
+  font-size: 14px;
+  transition: all 0.3s;
+}
+.product__box__btn:hover {
+  background-color: var(--btn-product-hover);
+}
+
+.selected_category {
+  background-image: var(--background-image-product);
+  border-right: var(--background-image-border-product);
+  color: var(--background-image-color-product);
+}
+.filter__items__link{
+  text-decoration: none !important;
+  color: black !important;
+}
+
+/* There Is No Product */
+.thereIsNoProduct {
+  margin-top: 35px;
+  color: var(--color-text);
+}
+.thereIsNoProduct img {
+  width: 50%;
+  height: 100%;
+  border-radius: 9px;
+}
+
+@media only screen and (max-width: 1485px) {
+}
+@media only screen and (max-width: 1200px) {
+  .filter__item p {
+    font-size: 12px;
+  }
+  .filter__item {
+    padding: 7px 14px;
+  }
+  .filter__item span {
+    left: 24px;
+  }
+  .product__box__name {
+    font-size: 14px;
+  }
+  .container-productsAndfilter {
+    margin: 0 40px 0 40px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .filter__item__iconsearch {
+    font-size: 1rem;
+    margin-left: 8px;
+  }
+  .filter__item {
+    padding: 7px 7px;
+  }
+  .filter__item span {
+    left: 4px;
+  }
+  .filter__Counseling__title {
+    font-size: 14px;
+  }
+  .filter__Counseling__icons {
+    font-size: 14px;
+  }
+  .filter__Counseling__text {
+    font-size: 14px;
+  }
+  .filter__Counseling {
+    margin: 24px 8px 0 8px;
+  }
+  .container-productsAndfilter {
+    margin: 0 10px 0 10px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .container__filter {
+    display: none;
+  }
+  .container-productsAndfilter {
+    margin: 0 10px 0 10px;
+  }
+  .products__boxs {
+    gap: none;
+    --columns: 3;
+    justify-content: center;
+    margin: 0;
+  }
+  .product__box__btn {
+    margin-top: -1px;
+    padding: 12px 0;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .products__boxs {
+    gap: none;
+    justify-content: center;
+    --columns: 2;
+    margin: 0;
+  }
+  .product__box {
+    flex-basis: calc(180% / var(--columns));
+  }
+}

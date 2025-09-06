@@ -1,0 +1,246 @@
+.footer {
+  color: white;
+  position: relative;
+  background-color: black;
+}
+.img-footer {
+  width: 100%;
+  height: 100vh;
+  background-image: url("./img-footer/footer-rayanmachine.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+  background-attachment: fixed;
+}
+.container-footer {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  padding: 3px;
+}
+.footer__BenefitsOfBuyingFromUs {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 30px 0;
+}
+.footer__BenefitsOfBuyingFromUs__box {
+  width: 170px;
+  text-align: center;
+}
+.footer__BenefitsOfBuyingFromUs__box__icon {
+  font-size: 4rem;
+  height: 80px;
+}
+
+.mian__footer {
+  justify-content: space-evenly;
+  display: flex;
+  margin: 40px 0;
+  z-index: 1;
+  opacity: 1 !important;
+  font-size: 12px;
+}
+.mian__footer__title {
+  font-size: 1rem;
+}
+.mian__footer__list__items > li {
+  margin: 30px 0;
+  font-size: 14.5px;
+  transition: all 0.3s;
+  cursor: pointer;
+  line-height: 3rem;
+  width: 164px;
+}
+.mian__footer__list__items li:hover {
+  color: rgb(202, 201, 201);
+  font-size: 0.78rem;
+}
+.mian__footer__text__Notices {
+  font-size: 0.9rem;
+}
+.mian__footer__text__Notices__emailtext {
+  margin-top: 32px;
+}
+.mian__footer__text__Notices__input {
+  width: 100%;
+  direction: ltr;
+  outline: none;
+  border-color: rgb(114, 114, 114);
+  border-radius: 25px;
+  border: none;
+  padding: 3px 5px;
+  transition: all 0.3s ease-in;
+  background-color: #0000000d;
+  color: white;
+  box-shadow: 0px 2px 3px var(--box-sahdow-color);
+}
+.mian__footer__text__Notices__input::placeholder {
+  text-align: right;
+  color: white;
+  opacity: 0.4;
+}
+.mian__footer__text__Notices__input:focus {
+  border-bottom: 1px solid rgb(123, 123, 123);
+}
+.mian__footer__text__Notices__btn {
+  margin-top: 20px;
+  text-align: left;
+}
+.mian__footer__text__Notices__btn button {
+  border: 1px solid white;
+  border-radius: 7px;
+  padding: 2px 9px;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.2);
+  transition: all 0.7s;
+  color: white;
+}
+.mian__footer__text__Notices__btn button:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.footer__ContactUs {
+  display: flex;
+  margin-top: 28px;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.footer__ContactUs__icon {
+  margin-bottom: -2px;
+  margin-left: 2px;
+}
+.footer__copy__right {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.footer__display {
+  position: relative;
+}
+.sl__copy__right {
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  height: 72px;
+  opacity: 0.3;
+}
+.footer__copy__right p {
+  top: 0;
+  line-height: 72px;
+  color: white;
+  width: 100%;
+  position: absolute;
+}
+@media only screen and (max-width: 1530px) {
+  .mian__footer__list__items li {
+    line-height: 0.8rem;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .footer__ContactUs {
+    margin-top: 0;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .footer__ContactUs {
+    flex-direction: column !important ;
+  }
+  .footer__ContactUs_phoneNumber {
+    margin-top: 25px;
+  }
+  .mian__footer__title {
+    font-size: 0.7rem;
+  }
+  .mian__footer__text__Notices {
+    font-size: 0.6rem;
+  }
+  .mian__footer__text__Notices__emailtext {
+    margin-top: 44px;
+  }
+  .mian__footer {
+    font-size: 10px;
+  }
+  .mian__footer__list__items li {
+    font-size: 10px;
+    line-height: 1.5rem;
+    width: 95px;
+  }
+  .mian__footer__list__items li:hover {
+    color: rgb(202, 201, 201);
+    font-size: 0.5rem;
+  }
+  .footer-icon {
+    font-size: 3rem;
+  }
+  .mian__footer__list__items li {
+    font-size: 10px;
+  }
+  .footer-icon {
+    font-size: 2.5rem;
+  }
+  .footer__BenefitsOfBuyingFromUs__box__text {
+    font-size: 12px;
+  }
+  .footer__ContactUs__Address {
+    font-size: 11px;
+  }
+  .footer__ContactUs_phoneNumber {
+    font-size: 11px;
+  }
+  .copy__right__text {
+    font-size: 11px;
+  }
+  .img-footer {
+    background-attachment: local;
+  }
+  .mian__footer__title {
+    font-size: 0.8rem;
+  }
+  .mian__footer__text__Notices__btn button {
+    padding: 6px 9px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .mian__footer {
+    margin-top: 68px;
+  }
+  .mian__footer__title {
+    font-size: 0.7rem;
+  }
+  .footer__hr {
+    margin-top: 50px;
+  }
+  .mian__footer__list__items li {
+    font-size: 8px;
+    line-height: 2.1rem;
+    width: 85px;
+  }
+  .footer-icon {
+    font-size: 2rem;
+  }
+  .footer__BenefitsOfBuyingFromUs__box__text {
+    font-size: 11px;
+  }
+  .mian__footer__text__us {
+    display: none;
+  }
+  .footer__ContactUs__Address {
+    font-size: 10px;
+  }
+  .footer__ContactUs_phoneNumber {
+    font-size: 10px;
+  }
+  .copy__right__text {
+    font-size: 9px;
+  }
+  .footer__BenefitsOfBuyingFromUs {
+    margin: 30px 0;
+  }
+  .mian__footer__list__items li:hover {
+    color: rgb(202, 201, 201);
+    font-size: 0.4rem;
+  }
+  .footer__BenefitsOfBuyingFromUs__box:nth-child(1){
+     display: none;
+  }
+}

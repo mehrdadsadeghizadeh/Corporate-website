@@ -1,0 +1,125 @@
+.container-ListOfMachineParts {
+  width: 100% !important;
+  position: relative;
+  color: white;
+  background-color: #0f0f0f;
+  height: 540px;
+  margin: 100px 0;
+}
+.ListOfMachineParts__imgisbackground {
+  width: 100% !important;
+  background-image: url("./background-img/img.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+  background-attachment: fixed;
+  height: 540px;
+  border-radius: 3px;
+}
+.ListOfMachineParts__title {
+  position: absolute;
+  top: 35px;
+  width: 100%;
+  justify-content: center;
+  display: flex !important;
+  align-items: center;
+}
+.ListOfMachineParts__title__icon {
+  font-size: 1.6rem;
+  margin-left: 3px;
+  margin-top: -7px;
+}
+.ListOfMachineParts__boxs {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+  padding: 0 120px;
+}
+.ListOfMachineParts__box__img img {
+  width: 260px;
+  height: 150px;
+  border-radius: 7px;
+}
+.ListOfMachineParts__box__text {
+  text-align: center;
+}
+@media only screen and (max-width: 1485px) {
+  .ListOfMachineParts__box__img img {
+    width: 225px;
+    height: 140px;
+    border-radius: 7px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .ListOfMachineParts__box__img img {
+    width: 170px;
+    height: 130px;
+    border-radius: 7px;
+  }
+  .ListOfMachineParts__title {
+    top: 20px;
+  }
+  .ListOfMachineParts__boxs {
+    margin-bottom: 50px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .ScrollAnimationLIst1,
+  .ScrollAnimationLIst2 {
+    display: none;
+  }
+  .ListOfMachineParts__box:nth-child(2) {
+    display: none;
+  }
+  .ListOfMachineParts__title {
+    top: 35px;
+  }
+  .container-ListOfMachineParts {
+    height: 520px;
+  }
+  .ListOfMachineParts__imgisbackground {
+    height: 520px;
+  }
+  /* .ListOfMachineParts__boxs{
+    padding: 0 60px;
+  } */
+}
+@media only screen and (max-width: 768px) {
+  .ListOfMachineParts__boxs {
+    padding: 0px;
+    margin-bottom: 30px;
+  }
+  .container-ListOfMachineParts {
+    margin: 70px 0;
+  }
+  .ListOfMachineParts__imgisbackground {
+    background-attachment: local;
+  }
+}
+@media only screen and (max-width: 510px) {
+  .ListOfMachineParts__box__img img {
+    width: 170px;
+    height: 90px;
+    border-radius: 7px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .ListOfMachineParts__box__img img {
+    width: 150px;
+    height: 100px;
+    border-radius: 7px;
+  }
+  .ListOfMachineParts__title {
+    top: 20px;
+    font-size: 0.8rem;
+  }
+  .ListOfMachineParts__title__icon {
+    font-size: 1.3rem;
+  }
+  .ListOfMachineParts__box__text p {
+    font-size: 0.8rem;
+  }
+}

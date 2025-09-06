@@ -1,0 +1,106 @@
+.container-login {
+  display: flex;
+  justify-content: center;
+}
+.login-page {
+  margin: 120px 0 100px;
+  max-width: 430px;
+  width: 100%;
+  background: var(--color-box);
+  color: var(--color-text);
+  border-radius: 7px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+.login-page .registration {
+  display: none;
+}
+#check:checked ~ .registration {
+  display: block;
+}
+#check:checked ~ .login {
+  display: none;
+}
+#check {
+  display: none;
+}
+.login-page .form {
+  padding: 2rem;
+}
+.form header {
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.form input {
+  width: 100%;
+  outline: none;
+  margin-bottom: 1.3rem;
+  border-color: rgb(114, 114, 114);
+  border-radius: 25px;
+  border: none;
+  padding: 9px 9px;
+  transition: all 0.3s ease-in;
+  background-color: #ffffff0d !important;
+  color: var(--color-text);
+  box-shadow: var(--box-sahdow);
+}
+.form input:focus {
+  border-bottom: 1px solid rgb(180, 177, 177);
+}
+.form a {
+  font-size: 16px;
+  color: var(--color-text-login);
+  text-decoration: none;
+}
+.form a:hover {
+  text-decoration: underline;
+}
+.form-button {
+  width: 100%;
+  color: white;
+  background-color: var(--color-btn);
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-top: 1.7rem;
+  cursor: pointer;
+  transition: 0.4s;
+  border-radius: 7px;
+  padding: 6px 0;
+  border: none;
+  border: 1px solid var(--color-border);
+}
+.form-button:hover {
+  background: var(--color-btn-hover);
+}
+.signup {
+  font-size: 17px;
+  text-align: center;
+  margin-top: 9px;
+}
+.signup label {
+  color: var(--color-text-login);
+  cursor: pointer;
+}
+.signup label:hover {
+  text-decoration: underline;
+}
+.messagePassword {
+  margin-top: -19px;
+  font-size: 13px;
+  margin-right: 7px;
+  color: #9e9784;
+}
+
+@media only screen and (max-width: 768px) {
+  .login-page {
+    margin: 144px 0 100px;
+  }
+  .form-button {
+    padding: 12px 0;
+  }
+  .messagePassword {
+    margin-top: -14px;
+  }
+}

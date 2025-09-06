@@ -1,0 +1,113 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  font: inherit;
+}
+@font-face {
+  font-family: "Digi Regular";
+  src: url("./font/ttf/Digi\ Rastin\ Bold.otf");
+}
+:root {
+  --background-color: #0f0f0f;
+  --color-box: rgb(36 42 56);
+  --color-text: rgb(249, 245, 245);
+  --color-border: rgb(206, 203, 203);
+  --color-border-btn: rgb(206, 203, 203);
+  --color-hover: rgba(255, 255, 255, 0.2);
+  --box-productPhone: rgba(255, 255, 255, 0.2);
+  --color-btn-dropdwn: '';
+  --color-text-login: rgb(136, 134, 134) ;
+  --color-btn: rgba(255, 255, 255, 0.2);
+  --color-btn-hover: rgba(255, 255, 255, 0.3);
+  --btn-product: #455a64;
+  --btn-product-hover: #546e7a;
+  --box-sahdow-color-dropdown: rgba(255, 253, 253, 0.2);
+  --box-sahdow-color: rgba(255, 253, 253, 0.2);
+  --color-btn-iconTheme: rgba(255, 255, 255, 0.3);
+  --box-sahdow: 0px 2px 3px var(--box-sahdow-color);
+  --border-topbar: rgb(255, 255, 255);
+  --background-image-order: linear-gradient(
+    to bottom,
+    rgb(36 42 56),
+    var(--color-hover)
+  );
+  --background-image-Border-order: 1px solid var(--color-border);
+  --background-image-product: linear-gradient(
+    to right,
+    #ffffff0d,
+    var(--color-hover)
+  );
+  --background-image-border-product: "";
+  --background-image-color-product: white;
+}
+
+[data-theme="light"] {
+  --background-color: #fafafa;
+  --color-box: #ffffff;
+  --color-text: #393a5a;
+  --border-topbar: rgb(235, 232, 232);
+  --color-btn-dropdwn: white;
+  --color-border: #f48fb1;
+  --color-text-login:#F48FB1 ;
+  --box-sahdow: 0px -1px 6px #F8BBD0 inset;
+  --color-border-btn: "";
+  --color-hover: rgba(254, 152, 196, 0.3);
+  --box-productPhone: #fce4ec;
+  --color-btn: #ec407a;
+  --color-btn-hover: #f06292;
+  --btn-product: #ec407a;
+  --btn-product-hover: #f06292;
+  --color-btn-iconTheme: rgba(0, 0, 0, 0.6);
+  --box-sahdow-color-dropdown: rgba(0, 0, 0, 0.2);
+  --box-sahdow-color: rgba(233, 228, 228, 0.1);
+  --background-image-order: linear-gradient(
+    to bottom,
+    rgba(246, 211, 227, 0),
+    #ec40792d
+  );
+  --background-image-Border-order: 2px solid #ec407a;
+  --background-image-product: linear-gradient(
+    to right,
+    rgba(246, 211, 227, 0),
+    #ec40792d
+  );
+  --background-image-border-product: 2px solid #ec407a;
+  --background-image-color-product: #ec407a;
+}
+* {
+  transition: all 80ms ease-in-out;
+}
+
+body {
+  background-color: var(--background-color);
+  font-family: "Digi Regular";
+  overflow-x: hidden;
+}
+/* ___________________________start style alert________________________ */
+.Toastify__toast-container {
+  margin-top: 128px;
+}
+.Toastify__toast {
+  direction: rtl !important;
+  font-family: "Digi Regular" !important;
+  font-size: 14px;
+}
+.Toastify__toast-icon {
+  margin-top: -2px;
+}
+/* ___________________________Finish style alert______________________ */
+@media only screen and (max-width: 576px) {
+  .Toastify__toast-container {
+    top: 15% !important;
+  }
+  .Toastify__toast {
+    width: 90%;
+    margin-bottom: 7px !important;
+  }
+}

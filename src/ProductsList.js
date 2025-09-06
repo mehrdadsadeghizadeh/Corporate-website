@@ -1,0 +1,136 @@
+ let productsList =  [ {
+     id: "100L1",
+      name: "پروانه موتور لودر چینی",
+      img: "/images/products/Loader/photo11832035825-200x200.jpg",
+      grouping: "Loader",
+    },
+    {
+      id: "100L2",
+      name: "پمپ پوستر ترمز لودر ZL50",
+      img: "/images/products/Loader/photo11350519737-200x200.jpg",
+      grouping: "Loader",
+    },
+    {
+      id: "100L3",
+      name: "پوسته کولر موتور لودر",
+      img: "/images/products/Loader/photo11353630054-200x200.jpg",
+      grouping: "Loader",
+    },
+    {
+      id: "100L4",
+      name: "کاسه نمد پمپ انژکتور لودر",
+      img: "/images/products/Loader/6102022-Copy-400x400.jpg",
+      grouping: "Loader",
+    },
+    {
+      id: "100L5",
+      name: "مهره دکل لودر",
+      img: "/images/products/Loader/6100489-Copy-400x400.jpg",
+      grouping: "Loader",
+    },
+    {
+      id: "100L6",
+      name: "پیچ دکل لودر",
+      img: "/images/products/Loader/6100490-Copy-400x400.jpg",
+      grouping: "Loader",
+    },
+    {
+      id: "100L7",
+      name: "لاستیک دسته اطاق لودر",
+      img: "/images/products/Loader/6101781-Copy-400x400.jpg",
+      grouping: "Loader",
+    },
+    {
+      id: "100L8",
+      name: "سوپاپ لودر",
+      img: "/images/products/Loader/6101979-Copy-400x400.jpg",
+      grouping: "Loader",
+    },
+    {
+      id: "100L9",
+      name: "سوزن پمپ لودر",
+      img: "/images/products/Loader/6101985-Copy-400x400.jpg",
+      grouping: "Loader",
+    },
+    {
+      id: "100F10",
+      name: "مهره دوسر عقب",
+      img: "/images/products/Forklift/6100315-copy-400x400.jpg",
+      grouping: "Forklift",
+    },
+    {
+      id: "100F11",
+      name: "استکانی پیچ دوسر",
+      img: "/images/products/Forklift/6100316-copy-400x400.jpg",
+      grouping: "Forklift",
+    },
+    {
+      id: "100F12",
+      name: "مهره چرخ عقب",
+      img: "/images/products/Forklift/6100322-copy-400x400.jpg",
+      grouping: "Forklift",
+    },
+    {
+      id: "100F13",
+      name: " پمپ تغذیه لیفتراک",
+      img: "/images/products/Forklift/6101989-Copy-400x400.jpg",
+      grouping: "Forklift",
+    },
+    {
+      id: "100E14",
+      name: "استوپر دمسو بیل مکانیکی",
+      img: "/images/products/Excavator/6101752-Copy-400x400.jpg",
+      grouping: "Excavator",
+    },
+    {
+      id: "100E15",
+      name: "دسته موتور بزرگ بیل مکانیکی",
+      img: "/images/products/Excavator/6101789-Copy-400x400.jpg",
+      grouping: "Excavator",
+    },
+    {
+      id: "100E16",
+      name: "لاستیک زیر اطاق",
+      img: "/images/products/Excavator/Stopper-Denso-PVC-HD325-6-400x400.jpg",
+      grouping: "Excavator",
+    },
+    {
+      id: "100B17",
+      name: "کاسه نمد محور اکسل",
+      img: "/images/products/Backhoe/HLB95-axle-felt-bowl-400x400.jpg",
+      grouping: "BillBackhoe",
+    },
+    {
+      id: "100B18",
+      name: "فیلتر هیدرولیک بیل بکهو",
+
+      img: "/images/products/Backhoe/Volvo-L90E-L120E-Loader-Transmission-Filter-and-Excavator-HLB95A-Donaldson-Hydraulic-Filter-1-400x400.jpg",
+      grouping: "BillBackhoe",
+    },
+    {
+      id: "100G19",
+      name: " دسته طاق گریدر ",
+      img: "/images/products/Grader/photo11350519039-200x200.jpg",
+      grouping: "Grader",
+    },
+    {
+      id: "100R20",
+      name: " چهارده  سانتی غلطک ",
+      img: "/images/products/Roller/6101766-Copy-400x400.jpg",
+      grouping: "Roller",
+    },
+    {
+      id: "100R21",
+      name: "کوپلینگ غلطک",
+      img: "/images/products/Roller/6101795-Copy-400x400.jpg",
+      grouping: "Roller",
+    },
+    {
+      id: "100R22",
+      name: " نازل سوزن انژرکتور ",
+      img: "/images/products/Roller/6101947-Copy-400x400.jpg",
+      grouping: "Roller",
+    },
+]
+
+export default productsList

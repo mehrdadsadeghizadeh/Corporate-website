@@ -1,0 +1,136 @@
+.container-CompanyStatistics {
+  margin: 100px 0;
+  padding: 0px 140px;
+}
+.CompanyStatistics__title {
+  text-align: center;
+  color: var(--color-text);
+}
+.container__CompanyStatistics__boxes {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.CompanyStatistics__boxes {
+  margin-top: 25px;
+  color: white;
+}
+.CompanyStatistics__box1 {
+  width: 170px;
+  padding: 7px;
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.7s;
+  margin: 3px;
+}
+.CompanyStatistics__box1:hover {
+  color: var(--color-text);
+}
+.CompanyStatistics__boxes:nth-child(1) .CompanyStatistics__box1 {
+  background-color: rgb(7, 153, 153);
+}
+.CompanyStatistics__boxes:nth-child(2) .CompanyStatistics__box1 {
+  background-color: rgb(143, 37, 188);
+}
+.CompanyStatistics__boxes:nth-child(3) .CompanyStatistics__box1 {
+  background-color: rgb(36, 179, 65);
+}
+.CompanyStatistics__boxes:nth-child(4) .CompanyStatistics__box1 {
+  background-color: rgb(190, 21, 69);
+}
+.CompanyStatistics__boxes:nth-child(5) .CompanyStatistics__box1 {
+  background-color: rgb(88, 69, 186);
+}
+.CompanyStatistics__boxes:nth-child(6) .CompanyStatistics__box1 {
+  background-color: rgb(194, 31, 121);
+}
+.CompanyStatistics__boxes:nth-child(1) .CompanyStatistics__box1:hover {
+  background-color: transparent;
+  outline: 1px solid rgb(7, 153, 153);
+  background-color: transparent;
+}
+.CompanyStatistics__boxes:nth-child(2) .CompanyStatistics__box1:hover {
+  background-color: transparent;
+  outline: 1px solid rgb(143, 37, 188);
+  background-color: transparent;
+}
+.CompanyStatistics__boxes:nth-child(3) .CompanyStatistics__box1:hover {
+  background-color: transparent;
+  outline: 1px solid rgb(36, 179, 65);
+  background-color: transparent;
+}
+.CompanyStatistics__boxes:nth-child(4) .CompanyStatistics__box1:hover {
+  background-color: transparent;
+  outline: 1px solid rgb(190, 21, 69);
+  background-color: transparent;
+}
+.CompanyStatistics__boxes:nth-child(5) .CompanyStatistics__box1:hover {
+  background-color: transparent;
+  outline: 1px solid rgb(88, 69, 186);
+  background-color: transparent;
+}
+.CompanyStatistics__boxes:nth-child(6) .CompanyStatistics__box1:hover {
+  background-color: transparent;
+  outline: 1px solid rgb(194, 31, 121);
+  background-color: transparent;
+}
+.CompanyStatistics__box1__icon {
+  margin-bottom: -3px;
+  margin-left: 3px;
+  color: white;
+  font-size: 1.3rem;
+  transition: color 0s;
+}
+.CompanyStatistics__box1:hover .CompanyStatistics__box1__icon {
+  color: var(--color-text);
+}
+.CompanyStatistics__box2 {
+  width: 170px;
+  text-align: center;
+  background-color: var(--color-box);
+  color: var(--color-text);
+  border-radius: 5px;
+  margin-top: 35px;
+  box-shadow: 0 5px 10px 2px rgba(40, 39, 39, 0.2);
+}
+.CompanyStatistics__box2__number {
+  color: rgb(136, 138, 21);
+  font-size: 3.5rem;
+  display: inline-block;
+  height: 50px;
+}
+.CompanyStatistics__box2__text {
+  color: var(--color-text);
+  padding-bottom: 22px;
+}
+@media only screen and (max-width: 768px) {
+  .container-CompanyStatistics {
+    margin: 70px 0;
+    padding: 2px;
+  }
+  .container__CompanyStatistics__boxes {
+    justify-content: space-evenly;
+  }
+  .CompanyStatistics__box1 {
+    width: 135px;
+    padding: 7px;
+  }
+  .CompanyStatistics__box2 {
+    width: 135px;
+    margin-top: 35px;
+    padding-top: 16px;
+  }
+  .CompanyStatistics__title {
+    font-size: 0.9rem;
+  }
+  .noOutline {
+    font-size: 0.9rem;
+  }
+  .CompanyStatistics__box2__number {
+    font-size: 3rem;
+  }
+  .CompanyStatistics__box2__text {
+    font-size: 0.9rem;
+  }
+}

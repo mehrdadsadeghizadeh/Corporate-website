@@ -1,0 +1,136 @@
+.container-contact {
+  margin-top: 120px;
+}
+.contact {
+  padding: 60px 60px;
+  color: var(--color-text);
+}
+.contact__info {
+  display: flex;
+  justify-content: space-evenly;
+}
+.contact__info__item {
+  margin-top: 24px;
+}
+.contact__info__item__title {
+  align-items: center;
+}
+.contact__info__item__icons {
+  font-size: 1.2rem;
+  margin-bottom: -3px;
+  margin-left: 15px;
+}
+.contact__info__item__number {
+  margin-right: 35px;
+  color: rgb(129, 129, 129);
+}
+.contact__message {
+  text-align: center;
+  margin-top: 24px;
+}
+.contact__message__input {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 24px;
+}
+.input__massage__name,
+.input__massage__email {
+  width: 100%;
+  outline: none;
+  border-color: rgb(114, 114, 114);
+  border-radius: 25px;
+  border: none;
+  padding: 5px 9px;
+  transition: all 0.3s ease-in;
+  background-color: #ffffff0d !important;
+  color: var(--color-text);
+  box-shadow: var(--box-sahdow);
+}
+.message__input {
+  width: 420px;
+}
+.contact__message__input input:focus {
+  border-bottom: 1px solid rgb(123, 123, 123);
+}
+.message__input p {
+  text-align: right;
+  margin-right: 12px;
+}
+.input__massage__textArea {
+  max-width: 840px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 24px;
+}
+
+.input__massage__textArea textarea {
+  width: 100%;
+  outline: none;
+  border-color: rgb(114, 114, 114);
+  border-radius: 25px;
+  border: none;
+  padding: 5px 9px;
+  transition: all 0.3s ease-in;
+  background-color: #ffffff0d !important;
+  color: var(--color-text);
+  box-shadow: var(--box-sahdow);
+
+}
+.input__massage__textArea textarea:focus {
+  border-bottom: 1px solid rgb(123, 123, 123);
+
+}
+.input__massage__textArea p {
+  text-align: right;
+  margin-right: 7px;
+}
+.input__massage__textArea {
+  text-align: left;
+}
+.input__massage__textArea button {
+  border-radius: 7px;
+  border: none;
+  background-color: var( --color-btn);
+  padding: 5px 8px;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  transition: all 0.3s ease-in;
+  border: 1px solid var(--color-border-btn);
+
+}
+.input__massage__textArea button:hover {
+  background-color: var(--color-btn-hover);
+}
+@media only screen and (max-width: 769px) {
+  .container-contact {
+    margin-top: 60px !important;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .input__massage__textArea button {
+ 
+    padding: 7px 7px;
+   
+  }
+  .in
+  .contact__info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .contact__message__input {
+    flex-direction: column;
+  }
+  .message__input {
+    width: 100%;
+  }
+  .contact__info__item__icons {
+    text-align: right;
+  }
+  .contact__info__item__title p {
+    text-align: right;
+    margin-right: 24px;
+  }
+}

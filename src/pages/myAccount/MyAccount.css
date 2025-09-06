@@ -1,0 +1,123 @@
+.container-MayAccont {
+  margin: 180px;
+  display: flex;
+  justify-content: center;
+}
+.MayAccont {
+  width: 700px;
+  border: 1px solid rgb(193, 193, 193);
+  border-radius: 7px;
+  padding: 24px;
+}
+.userInfo {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.userInfo__item {
+  color: var(--color-text);
+  margin-top: 28px;
+}
+.userInfo__item p {
+  text-align: right;
+}
+.userInfo__item input {
+  width: 100%;
+  outline: none;
+  border-color: rgb(114, 114, 114);
+  border-radius: 25px;
+  border: none;
+  padding: 5px 9px;
+  transition: all 0.3s ease-in;
+  background-color: #ffffff0d !important;
+  color: var(--color-text);
+  box-shadow: var(--box-sahdow);
+}
+.userInfo__item input:focus {
+  border-bottom: 1px solid rgb(123, 123, 123);
+}
+.saveInfoBtn {
+  text-align: left;
+  margin-left: 42px;
+  margin-top: 28px;
+}
+.saveInfoBtn button {
+  cursor: pointer;
+  background-color: var(--color-btn);
+  border: 1px solid var(--color-border-btn);
+  color: white;
+  border-radius: 7px;
+  font-size: 14px;
+  padding: 4px 7px;
+  transition: all 0.3s ease-in;
+}
+.saveInfoBtn button:hover {
+  background-color: var(--color-btn-hover);
+}
+.MayAccont__footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 42px;
+}
+.MayAccont__orders {
+  display: flex;
+  color: var(--color-text);
+  justify-content: center;
+  align-items: center;
+}
+.MayAccont__orders button {
+  width: 120px;
+  font-size: 12px;
+  border-radius: 7px;
+  padding: 3px 0;
+  cursor: pointer;
+  color: white;
+  background-color: var(--color-btn);
+  transition: all 0.3s ease-in;
+  border: none;
+  border: 1px solid var(--color-border);
+}
+.MayAccont__orders button:hover {
+  background-color: var(--color-btn-hover);
+}
+.MayAccont__orders__text {
+  margin-left: 5px;
+}
+.logOut {
+  display: flex;
+  color: var(--color-text);
+  cursor: pointer;
+}
+.logOut p {
+  font-size: 14px;
+}
+.logOut__icon {
+  font-size: 1.3rem;
+  margin-top: 2px;
+  margin-left: 3px;
+}
+
+@media only screen and (max-width: 875px) {
+  .container-MayAccont {
+    margin: 170px 10px;
+  }
+  .MayAccont {
+    padding: 14px 0;
+  }
+  .MayAccont__orders {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 765px) {
+  .container-MayAccont {
+    margin: 100px 10px;
+  }
+  .saveInfoBtn button {
+    padding: 7px 7px;
+  }
+  .MayAccont__orders button {
+    padding: 6px 0;
+  }
+}

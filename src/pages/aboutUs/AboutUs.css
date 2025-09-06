@@ -1,0 +1,31 @@
+.container-aboutUs {
+  margin-top: 120px;
+}
+.aboutUs {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 24px;
+  padding: 70px  48px;
+}
+.aboutUs__text {
+  max-width: 550px;
+  color: var(--color-text);
+}
+.aboutUs__img img {
+  width: 100%;
+  object-fit: contain;
+  border-radius: 9px;
+}
+@media only screen and (max-width: 769px) {
+    .container-aboutUs {
+        margin-top: 60px;
+      }
+  .aboutUs {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .aboutUs__img img {
+    width: 70%;
+  }
+}

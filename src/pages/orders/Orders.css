@@ -1,0 +1,219 @@
+.container-orders {
+  margin-top: 70px;
+}
+.wrapper-ordes {
+  padding-top: 120px;
+}
+.contauner-order__heder {
+  display: flex;
+  justify-content: center;
+  margin: 0 10px;
+}
+.order-heder {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  width: 1100px;
+  background-color: var(--color-box);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 7px;
+  padding: 13px 0;
+  color: var(--color-text);
+}
+.style-order_item {
+  background-image: var(--background-image-order);
+  border-bottom: var(--background-image-Border-order);
+}
+.order-heder span {
+  cursor: pointer;
+  padding: 7px;
+  width: 150px;
+  position: relative;
+  align-items: center;
+  margin-bottom: -7px;
+  padding: 13px;
+  padding-bottom: 24px;
+  margin-bottom: -14px;
+}
+.order-heder__sm {
+  display: none;
+}
+.order-heder__sm label {
+  margin-left: 10px;
+  color: var(--color-text);
+}
+#heder__sm__items {
+  border-radius: 3px;
+  padding: 8px 7px 4px 7px;
+  border-color: #dadada;
+}
+
+#heder__sm__items:focus {
+  outline: 1px solid rgb(0, 0, 0);
+}
+.showOrders {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 70px 10px 50px 10px;
+}
+.showOrders__boxs {
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.showOrders__box {
+  width: 1100px;
+  display: flex;
+  padding: 15px;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  border: 1px solid var(--color-border);
+  background-color: var(--color-box);
+  border-radius: 7px;
+  color: var(--color-text);
+}
+.showOrders__box__img {
+  width: 250px !important;
+  height: 190px !important;
+}
+.imgOrderBox {
+  width: 100% !important;
+  height: 100% !important;
+  border-radius: 9px;
+}
+.showOrders__box__informationProduct {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.showOrders__box__informationProduct__namepro p {
+  color: rgb(176, 174, 174);
+  margin: 9px 0;
+}
+.showOrders__box__informationProduct__vlauepro p {
+  margin-right: 12px;
+  margin: 9px 12px 0;
+}
+
+.showOrders__box__Description {
+  width: 400px;
+}
+.showOrders__box__Description__text {
+  font-size: 0.9rem;
+  margin-bottom: 14px;
+}
+.showOrders__box__btnconselOrder button {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background-color: var(--color-btn);
+  border: none;
+  color: rgb(248, 248, 248);
+  font-size: 14px;
+  padding: 5px 13px;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: all 0.5s;
+  border: 1px solid var(--color-border-btn);
+}
+.showOrders__box__btnconselOrder button:hover {
+  background-color: var(--color-btn-hover);
+}
+.customIsNotAvailable {
+  text-align: center;
+  padding: 1px 0 16px 0;
+  color: var(--color-text);
+}
+.customIsNotAvailable__img img {
+  width: 40%;
+  height: 100%;
+  object-fit: cover;
+  margin-top: -30px;
+  border-radius: 9px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .showOrders__box {
+    width: 100%;
+  }
+  .showOrders__box__informationProduct__namepro {
+    margin-right: 12px;
+  }
+  .showOrders__box__informationProduct__vlauepro {
+    width: 110px;
+  }
+  .showOrders__box__informationProduct__namepro,
+  .showOrders__box__informationProduct__vlauepro,
+  .showOrders__box__informationProduct__namepro {
+    font-size: 13px;
+  }
+  .showOrders__box__Description__text {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .showOrders__box__Description__text {
+    font-size: 12px;
+  }
+  .showOrders__box__informationProduct__vlauepro p {
+    margin-right: 6px;
+  }
+  .showOrders__box__Description {
+    width: 300px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .showOrders__box {
+    flex-direction: column;
+  }
+  .showOrders__box__img img {
+    width: 100%;
+  }
+  .showOrders__box__informationProduct,
+  .showOrders__box__Description,
+  .showOrders__box__btnconselOrder {
+    margin-left: auto;
+    margin-right: 30px;
+    margin-top: 10px;
+  }
+  .showOrders__box__btnconselOrder button {
+    position: relative;
+  }
+  .order-heder {
+    display: none;
+  }
+  .order-heder__sm {
+    display: flex;
+  }
+  .order-heder__sm label {
+    margin-top: 12px;
+  }
+
+  .order-heder span {
+    width: 120px;
+  }
+  .showOrders__box__Description {
+    width: auto;
+  }
+  .showOrders__box__informationProduct{
+    margin: 0;
+    width: 90%;
+  }
+  .showOrders__box__informationProduct__vlauepro {
+    width: 90%;
+  }
+  .showOrders__box__informationProduct__namepro{
+    width: 50%;
+
+  }
+  .showOrders__box__informationProduct__vlauepro p {
+    margin-right: 0px;
+  }
+  .showOrders__box__btnconselOrder button {
+    padding: 7px 12px;
+  }
+  
+}
